@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  background: url(./assets/moneybg.avif);
+  background-size: 27%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: rgba(246, 245, 242, 0.8);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  padding: 5px;
+  width: 100%;
+}
+
+.InputComp {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  background-color: rgba(178, 31, 102, 0.8);
+  width: 80%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.inputs-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.addBtn {
+  font-size: 22px;
+  border-radius: 6px;
+  padding: 0px 20px;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #F99417;
+}
+
+.style-input {
+  border: 2px solid black;
+  width: 200px;
+  height: 30px;
+}
+
+.card-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 320px;
+  height: 180px;
+  border: 2px solid black;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: rgba(3, 201, 136, 0.9);
+  border-radius: 5px;
+}
+
+.card-icon-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash {
+  font-size: 25px;
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+}
+
+.trash:hover {
+  color: white;
+}
+
+.card-desc {
+  height: 65px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card-date {
+  font-weight: bold;
+}
